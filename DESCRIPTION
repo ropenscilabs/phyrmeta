@@ -2,7 +2,7 @@ Package: phyrmeta
 Title: Client to Handle Phylometa Output
 Description: Phylometa (http://lajeunesse.myweb.usf.edu/publications.htm>)
     R client.
-Version: 0.0.2.9000
+Version: 0.0.3.9000
 Authors@R: person("Scott", "Chamberlain", role = c("aut","cre"),
     email = "myrmecocystus@gmail.com")
 License: MIT + file LICENSE
