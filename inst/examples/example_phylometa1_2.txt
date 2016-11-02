@@ -1,0 +1,207 @@
+               ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+               ³                                                ³
+               ³                   phyloMeta                    ³
+               ³            version 1.2b (2011/02/06)           ³
+               ³                                                ³
+               ³                ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                ³
+               ³                                                ³
+               ³               Marc J. Lajeunesse               ³
+               ³         http://lajeunesse.myweb.usf.edu        ³
+               ³               lajeunesse@usf.edu               ³
+               ³                                                ³
+               ³        Department of Integrative Biology       ³
+               ³           University of South Florida          ³
+               ³           4202 E. Fowler Ave, SCA110           ³
+               ³                Tampa, FL 33620                 ³
+               ³                                                ³
+               ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+
+PHYLOGENY
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+À¿           
+ ÃÄAcrolepia_assectella          
+ À¿          
+  Ã¿         
+  ³Ã¿        
+  ³³ÃÄZeiraphera_canadiensis       
+  ³³ÀÄLobesia_botrana       
+  ³À¿        
+  ³ ÃÄEpiphyas_postvittana       
+  ³ À¿       
+  ³  ÃÄChoristoneura_rosaceana      
+  ³  ÀÄChoristoneura_fumiferana      
+  À¿         
+   Ã¿        
+   ³ÃÄSitotroga_cerealella       
+   ³ÀÄPectinomorpha_gossypiella       
+   À¿        
+    Ã¿       
+    ³Ã¿      
+    ³³Ã¿     
+    ³³³Ã¿    
+    ³³³³ÃÄPieris_napi   
+    ³³³³ÃÄEurema_hecabe   
+    ³³³³ÀÄColias_eurytheme   
+    ³³³À¿    
+    ³³³ ÃÄJalmenus_evagoras   
+    ³³³ À¿   
+    ³³³  ÃÄPolygonia_c_album  
+    ³³³  ÀÄDanaus_plexippus  
+    ³³ÀÄThymelicus_lineola     
+    ³À¿      
+    ³ ÃÄPapilio_machaon     
+    ³ ÀÄPapilio_glaucus     
+    À¿       
+     Ã¿      
+     ³Ã¿     
+     ³³ÃÄPlodia_interpunctella    
+     ³³ÀÄChilo_partellus    
+     ³À¿     
+     ³ ÃÄDiatraea_considerata    
+     ³ ÀÄOstrinia_nubilalis    
+     À¿      
+      ÃÄAntheraea_mylitta     
+      À¿     
+       ÃÄTrichoplusia_ni    
+       À¿    
+        ÃÄBusseola_fusca   
+        À¿   
+         ÃÄHelicoverpa_armigera  
+         À¿  
+          Ã¿ 
+          ³ÃÄPseudaletia_unipuncta
+          ³ÀÄAgrotis_segetum
+          ÀÄSpodoptera_littoralis 
+
+  PHYLOGENY SUMMARY.
+
+           # of tips = 28
+         ultrametric = false
+     # of polytomies = 1
+
+
+RESULTS SECTION A. Traditional meta-analysis.
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+  TABLE 1. Summary of fit statistics.
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Source                Q     df    p
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Between groups       4.82    1  0.0282
+    Within groups       44.71   27  0.0175
+      Within group 0     7.50   12  0.8227
+      Within group 1    37.20   14  0.0007
+    Total               49.52
+  
+    Between groups  
+      random-effects     3.25    1  0.0714
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+  TABLE 2. Summary of pooled effect sizes (ë) and variances (åı).
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                                             Is non-zero?
+                                                         ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Group          k      ë       åı         95%CI          Z     df     p
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  Fixed-effects
+
+    All studies   28    0.359   0.0016    (0.281,0.438)   80.66    1   0.0000
+      Group 0     13    0.260   0.0036    (0.142,0.378)   18.53    1   0.0000
+      Group 1     15    0.437   0.0029    (0.332,0.542)   66.94    1   0.0000
+
+  Random-effects (between-study åı=0.03353)
+
+    All studies   28    0.352   0.0032    (0.242,0.463)   39.29    1   0.0000
+      Group 0     13    0.242   0.0069    (0.079,0.405)    8.50    1   0.0036
+      Group 1     15    0.446   0.0058    (0.296,0.595)   34.04    1   0.0000
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+RESULTS SECTION B. Phylogenetically-independent meta-analysis.
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+  TABLE 1. Summary of fit statistics.
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                             Adjusted via
+                                             # polytomies
+                                            ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Source                Q     df    p       df    p
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Between groups      21.24    1  0.0000
+    Within groups      227.78   27  0.0000    26  0.0000
+      Within group 0    13.44   12  0.3382    12  0.3382
+      Within group 1   112.55   14  0.0000    14  0.0000
+    Total              249.02
+  
+    Between groups  
+      random-effects     8.14    1  0.0043
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+  TABLE 2. Summary of pooled effect sizes (ë) and variances (åı).
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                                             Is non-zero?
+                                                         ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Group          k      ë       åı         95%CI          Z     df     p
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  Fixed-effects
+
+    All studies   28    0.443   0.0024    (0.347,0.538)   82.76    1   0.0000
+      Group 0     13    0.515   0.0044    (0.385,0.645)   60.25    1   0.0000
+      Group 1     15    0.298   0.0060    (0.146,0.450)   14.79    1   0.0001
+
+  Random-effects (between-study åı=0.03353)
+
+    All studies   28    0.409   0.0085    (0.228,0.589)   19.66    1   0.0000
+      Group 0     13    0.364   0.0139    (0.133,0.595)    9.54    1   0.0020
+      Group 1     15    0.329   0.0114    (0.120,0.538)    9.50    1   0.0021
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+RESULTS SECTION C. Traditional vs. phylogenetically-independent meta-analysis.
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+  TABLE 1. Summary of model fit.
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Meta-analysis                         AIC
+                                   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                    fixed    random
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Traditional                     94.56    76.99
+    Phylogenetically-independent   142.15    93.77
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  Note. Lowest AIC is best fit.
+
+
+  TABLE 2. Summary of model fit.
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Meta-analysis                    -2(likelihood)
+                                   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                    fixed    random
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Traditional                     16.15    13.71
+    Phylogenetically-independent    32.47    20.06
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+For further details on these methods see:
+
+   Lajeunesse, M.J. (2009) Meta-analysis and the comparative
+        phylogenetic method. American Naturalist 174: 369-381.
+
+
+Press any key to continue . . . 
+Press any key to continue . . . 

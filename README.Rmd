@@ -12,10 +12,44 @@ knitr::opts_chunk$set(
 
 `phyrmeta`: Client to Handle Phylometa Output
 
-__not ready yet__
+## Install
+
+```{r eval=FALSE}
+devtools::install_github("ropenscilabs/phyrmeta")
+```
+
+```{r}
+library('phyrmeta')
+```
+
+## Parse Phylometa output files
+
+### 1 group
+
+Get an example file
+
+```{r}
+file <- system.file("examples/example_one_group.txt", package = "phyrmeta")
+cat(readLines(file)[1:10], sep = "\n")
+```
+
+Parse the file
+
+```{r}
+phylometa_process(file, groups = 1)
+```
+
+### N groups
+
+And so on for N groups. Change the `groups` parameter to the number of groups
+in your output file.
+
 
 ## Meta
 
-* Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+* Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
+By participating in this project you agree to abide by its terms.
 * Please [report any issues or bugs](https://github.com/ropenscilabs/phyrmeta/issues)
 * License: MIT
+
+[![ropensci](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)

@@ -4,18 +4,30 @@
 \alias{phylometa_process}
 \title{Process phylometa output}
 \usage{
-phylometa_process(x, groups = 1)
+phylometa_process(x, groups)
 }
 \arguments{
-\item{x}{output from running Phylometa}
+\item{x}{(character) a path to a file, the output from running Phylometa.
+required.}
 
-\item{groups}{(integer) number of groups}
+\item{groups}{(integer) number of groups. required. This is the number of
+groups you specified in your phylometa analysis. if you look at your output
+file, it's the number of groups listed in any table}
 }
 \description{
 Process phylometa output
 }
 \examples{
-file <- system.file("examples/output_eg1.txt", package = "phyrmeta")
+file <- system.file("examples/example_one_group.txt", package = "phyrmeta")
+phylometa_process(file, groups = 1)
 
+file <- system.file("examples/example_two_groups.txt", package = "phyrmeta")
+phylometa_process(file, groups = 2)
+
+file <- system.file("examples/example_three_groups.txt", package = "phyrmeta")
+phylometa_process(file, groups = 3)
+
+file <- system.file("examples/example_four_groups.txt", package = "phyrmeta")
+phylometa_process(file, groups = 4)
 }
 

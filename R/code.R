@@ -102,11 +102,12 @@ maketables_1group <- function(output){ #DONE IF/ELSE REFORMATTING
   numbers5 <- data.frame(numbers5, rownaames5) #Make data frame of row names and numbers
   colnames(numbers5) <- c("twoln_fixed", "twoln_random", "Analysis") #Assign column names
   summarymodelfits_twoln_table <- data.frame(Analysis = numbers5[,3], twoln_fixed = numbers5[,1], twoln_random = numbers5[,2]) #Reorder columns
-  #summarymodelfits_twoln_table #See table
 
   #Make list of tables
-  tables <- list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table, summarymodelfits_twoln_table)
-  tables
+  stats::setNames(
+    list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table),
+    table_names
+  )
 }
 
 # 2 groups in the moderator variable
@@ -237,8 +238,10 @@ maketables_2group <- function(output){ #DONE IF/ELSE REFORMATTING
   #summarymodelfits_twoln_table #See table
 
   #Make list of tables
-  tables <- list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table, summarymodelfits_twoln_table)
-  tables
+  stats::setNames(
+    list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table),
+    table_names
+  )
 }
 
 # 3 groups in the moderator variable
@@ -391,8 +394,10 @@ maketables_3group <- function(output){ #DONE IF/ELSE REFORMATTING
   #summarymodelfits_twoln_table #See table
 
   #Make list of tables
-  tables <- list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table, summarymodelfits_twoln_table)
-  tables
+  stats::setNames(
+    list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table),
+    table_names
+  )
 }
 
 # 4 groups in the moderator variable
@@ -551,7 +556,9 @@ maketables_4group <- function(output){ #DONE IF/ELSE REFORMATTING
   #summarymodelfits_twoln_table #See table
 
   #Make list of tables
-  tables <- list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table, summarymodelfits_twoln_table)
-  tables
+  stats::setNames(
+    list(summaryfitstats_table1_trad, summaryeffsizes_table2_trad, summaryfitstats_table1_phyl, summaryeffsizes_table2_phyl, summarymodelfits_AIC_table),
+    table_names
+  )
 }
 
