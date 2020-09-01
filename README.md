@@ -9,7 +9,7 @@ phyrmeta
 
 
 ```r
-devtools::install_github("ropenscilabs/phyrmeta")
+remotes::install_github("sckott/phyrmeta")
 ```
 
 
@@ -90,7 +90,6 @@ in your output file.
 
 * Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
 By participating in this project you agree to abide by its terms.
-* Please [report any issues or bugs](https://github.com/ropenscilabs/phyrmeta/issues)
+* Please [report any issues or bugs](https://github.com/sckott/phyrmeta/issues)
 * License: MIT
 
-[![ropensci](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)
